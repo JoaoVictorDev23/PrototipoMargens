@@ -1,0 +1,18 @@
+package com.tdm.prototipo_margens.Errors;
+
+public class ErrorResponse {
+    private String message;
+    // Adicione outros campos, se necessário
+
+    public ErrorResponse(String message) {
+        this.message = message;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+}
