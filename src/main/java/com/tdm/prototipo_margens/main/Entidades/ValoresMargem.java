@@ -43,9 +43,6 @@ public class ValoresMargem {
     @Column(name = "fe_rodotrem")
     private Float feRodotrem;
 
-    @Column(name = "cadastrado_por")
-    private String cadastradoPor;
-
     @Column(name = "id_margem")
     private String idMargem;
 
@@ -68,7 +65,6 @@ public class ValoresMargem {
         this.feRodotrem = valoresMargemDto.feRodotrem();
         this.fmRodotrem = valoresMargemDto.fmRodotrem();
 
-        this.cadastradoPor = valoresMargemDto.idMargem();
         this.idMargem = valoresMargemDto.idMargem();
      }
 

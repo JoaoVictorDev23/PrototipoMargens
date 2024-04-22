@@ -35,10 +35,10 @@ public class Margem {
     private String destino;
 
     @Column(name="margem")
-    private String margem;
+    private Float margem;
 
     @Column(name="margem_agr")
-    private String margemAgr;
+    private Float margemAgr;
 
     @Column(name = "kilometragem")
     private Float kilometragem;

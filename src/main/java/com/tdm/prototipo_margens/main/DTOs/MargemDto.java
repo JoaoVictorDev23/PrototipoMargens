@@ -13,8 +13,8 @@ public record MargemDto(
 
  String destino,
 
- String margem,
- String margemAgr,
+ Float margem,
+ Float margemAgr,
  Float kilometragem,
  Float pesoTon,
 

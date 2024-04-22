@@ -11,5 +11,7 @@ CREATE TABLE valores_margem (
                                 fm_granel FLOAT,
                                 fe_granel FLOAT,
                                 fm_rodotrem FLOAT,
-                                fe_rodotrem FLOAT
+                                fe_rodotrem FLOAT,
+                                id_margem VARCHAR(255) not null,
+                                FOREIGN KEY (id_margem) REFERENCES margem(id)
 );
